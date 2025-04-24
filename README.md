@@ -11,9 +11,9 @@ Term Frequency(TF)  is the number of times the term or word appears in a documen
 ![image](https://github.com/user-attachments/assets/fc7b9aad-40ac-4325-8dff-e15e3af9252a)
 
  Inverse document frequency(IDF) is the log of the total number of documents compared to the number of documents that represent a word. The equation of  IDF can be seen below:
+                        
+![image](https://github.com/user-attachments/assets/f14332a8-7cdd-4e02-a317-041a50555e71)
 
-                         number of documents in the corpus
-             number f documents in the corpus contain the term
 Then calculate TF-IDF score for a word by multiplying TF and IDF scores.
                                                                 TF-IDF = TF *IDF
 In order to find the most important sentences, it takes the individual sentences from tokenized sentences and computes the sentence score by taking the sum of TF-IDF, which calculates and determines the most important sentences based on the presence of important words.
