@@ -7,8 +7,9 @@ The second step was divided into three phases preprocessing, scoring or ranking 
  Scoring or ranking sentences step aimed to extract the most important sentence and this can be done by TF-IDF algorithm with the help of  TfidfVectorizer, this method is divided into three steps first it calculates the term frequency (TF) second calculates inverse document frequency(IDF), and finally, multiply the result of the term frequency and inverse document frequency to get  TF-IDF final result.
 Term Frequency(TF)  is the number of times the term or word appears in a document compared to the total number of words in the document. In this case, the number of times a word appears in a sentence is compared to the total number of words in the sentence. Mathematically can represent a function as:
 
-                                                      number of times the term appears in the document
-                                                              total number of terms in the document
+
+![image](https://github.com/user-attachments/assets/fc7b9aad-40ac-4325-8dff-e15e3af9252a)
+
  Inverse document frequency(IDF) is the log of the total number of documents compared to the number of documents that represent a word. The equation of  IDF can be seen below:
 
                          number of documents in the corpus
