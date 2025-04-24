@@ -19,4 +19,26 @@ In order to find the most important sentences, it takes the individual sentences
 After calculating the scores, a heap queue algorithm is used which is a special tree structure. Sentences will be organized in descending order. In this work case, it gives priority to the highest TF-IDF in which the sentence that has a higher score will appear first and the top sentences will be represented in the summary based on the retention rate that can be determined by the user. 
 The selection of the sentences is based on the highest TF-IDF and the number of sentences, and this can be controlled by multiplying the number of sentences with any value between 0 and 1. In this work, 0.50 were chosen to retrieve sentences from the original text. Due to different experiments and the accuracy results with keeping the minimal loss of information during the summarization process 0.50 was chosen.
 
-![image](https://github.com/user-attachments/assets/7d0c982f-be1f-43a4-a791-1a1b9818c694)
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+![image](https://github.com/user-attachments/assets/b844d891-69d3-4844-8a08-00e7bc6fc8bc)
+
+
+
+
